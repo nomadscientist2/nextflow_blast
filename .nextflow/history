@@ -1,0 +1,3 @@
+2023-03-13 09:31:17	660ms	adoring_cori	OK	a32e1748723503eeab2f54d410b55ef2	6ca0bbae-3baa-4879-aef8-7c8db4f49770	nextflow run main.nf
+2023-03-13 09:31:46	787ms	deadly_mcnulty	OK	a32e1748723503eeab2f54d410b55ef2	94208b83-2625-4414-8196-5a23be96d71f	nextflow run main.nf --query NewBlastDB
+2023-03-13 09:32:06	1.2s	insane_jepsen	OK	a32e1748723503eeab2f54d410b55ef2	038682af-00a8-4d76-967c-7a3b36defa10	nextflow run main.nf --query any_new_database
