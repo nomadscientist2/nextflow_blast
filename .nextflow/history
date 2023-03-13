@@ -2,3 +2,46 @@
 2023-03-13 09:31:46	787ms	deadly_mcnulty	OK	a32e1748723503eeab2f54d410b55ef2	94208b83-2625-4414-8196-5a23be96d71f	nextflow run main.nf --query NewBlastDB
 2023-03-13 09:32:06	1.2s	insane_jepsen	OK	a32e1748723503eeab2f54d410b55ef2	038682af-00a8-4d76-967c-7a3b36defa10	nextflow run main.nf --query any_new_database
 2023-03-13 09:40:00	974ms	scruffy_shockley	OK	9e476294bde44ce8981a9fe424a6ebe5	c25349d4-9310-40c6-a2a9-b9bf81f4901e	nextflow -log ./logs run main.nf --query any_new_database
+2023-03-13 09:48:01	1.1s	loving_mirzakhani	OK	99ac1fac1331652c1df6b9836e4e4437	8a9a115f-2dc9-4821-9e68-2173dcc02a77	nextflow -log ./logs run main.nf --query any_new_database
+2023-03-13 09:48:22	962ms	nasty_monod	OK	99ac1fac1331652c1df6b9836e4e4437	493d41ba-13a4-4178-a4f2-5a45d5a75b1c	nextflow -log ./logs run main.nf
+2023-03-13 09:49:03	1.3s	lonely_varahamihira	OK	3d56daf21efd9c586bdfbaa927bfdb2b	4f8c7ca1-5a5e-4ff6-b9c4-3240b8e14b51	nextflow -log ./logs run main.nf
+2023-03-13 09:49:37	1.1s	irreverent_yonath	OK	bee2d297e6a8133019ae19f9c61e5352	e49e08dd-97e7-44d1-aafc-d048309134bf	nextflow -log ./logs run main.nf
+2023-03-13 10:14:00	-	festering_dalembert	-	88df47b9ed0e1513b83b33d4685360bf	5b9e1268-9b03-4390-be0f-363b8c49fc75	nextflow -log ./logs run main.nf
+2023-03-13 10:15:06	3.2s	stoic_darwin	OK	883c55d1340ec9b2a832102b56995a16	478eeddd-29c8-4b2e-809d-78325ec10dc8	nextflow -log ./logs run main.nf
+2023-03-13 10:15:22	3.6s	soggy_monod	ERR	883c55d1340ec9b2a832102b56995a16	217f61fb-0f16-4756-a59d-397c879d67f5	nextflow -log ./logs run main.nf
+2023-03-13 10:16:09	1.8s	stupefied_snyder	ERR	883c55d1340ec9b2a832102b56995a16	3afaa6f1-fb89-4edb-863b-ebc85a9c0934	nextflow -log ./logs run main.nf
+2023-03-13 10:16:22	1.7s	awesome_tesla	ERR	883c55d1340ec9b2a832102b56995a16	3afaa6f1-fb89-4edb-863b-ebc85a9c0934	nextflow -log ./logs run main.nf -resume
+2023-03-13 10:17:04	2.3s	romantic_colden	ERR	883c55d1340ec9b2a832102b56995a16	ea9acbf0-b901-42eb-9204-db6ebdd0c294	nextflow -log ./logs run main.nf
+2023-03-13 10:18:40	1.9s	awesome_brown	OK	883c55d1340ec9b2a832102b56995a16	ef6ca07e-d0cf-4276-a7ea-b7116c9e8379	nextflow -log ./logs run main.nf
+2023-03-13 10:19:42	3s	jovial_hodgkin	OK	883c55d1340ec9b2a832102b56995a16	791a2cec-dbff-4c1e-af74-faaa4eb401bc	nextflow -log ./logs run main.nf
+2023-03-13 10:32:26	2.7s	distraught_nobel	OK	883c55d1340ec9b2a832102b56995a16	49d79bfe-da48-4b87-b397-8be837ef8962	nextflow -log ./logs run main.nf
+2023-03-13 10:32:36	2.1s	big_raman	OK	883c55d1340ec9b2a832102b56995a16	feaf53d1-8f8b-4814-a526-a7d6af12e43f	nextflow -log ./logs run main.nf
+2023-03-13 10:32:59	-	curious_wing	-	c6f5cda2a8d341d44812f8819dbd3ecb	27e9035b-451f-4ce4-bef1-9ce308648ee5	nextflow -log ./logs run main.nf
+2023-03-13 10:33:36	2s	romantic_hugle	OK	c6f5cda2a8d341d44812f8819dbd3ecb	97876df8-60bc-4142-8456-f55b18c368fa	nextflow -log ./logs run main.nf
+2023-03-13 10:33:50	1.8s	sharp_knuth	OK	c6f5cda2a8d341d44812f8819dbd3ecb	6da10d22-2ab8-4572-b85f-5bf0f45983e2	nextflow -log ./logs run main.nf
+2023-03-13 10:41:35	2.5s	extravagant_mendel	OK	090136896533c103fcba3d248502bb06	73a95b22-5f26-4dfd-af47-a05dcc7a8ed8	nextflow -log ./logs run main.nf
+2023-03-13 10:42:21	2.9s	jovial_brahmagupta	OK	090136896533c103fcba3d248502bb06	2b421d55-882c-4cd3-852f-46e5deae1b21	nextflow -log ./logs run main.nf --query /Users/amiee/mark/nextflow_blast/input.fasta --threads 6
+2023-03-13 10:48:46	2.4s	irreverent_jang	ERR	ff1ec7af4b44e707f6b7372ba60c3ae6	ffb05586-8afe-42a9-a565-29a2524e06bc	nextflow -log ./logs run main.nf
+2023-03-13 10:49:37	1.9s	marvelous_caravaggio	OK	ff1ec7af4b44e707f6b7372ba60c3ae6	a297e9ae-8697-4d11-b522-12d63828d65e	nextflow -log ./logs run main.nf
+2023-03-13 10:52:56	1.7s	happy_bartik	ERR	62de4bf58427a6995f14c5d1590ad93e	d3f032fc-e3d2-4278-97ba-c22b7f9b040a	nextflow -log ./logs run main.nf
+2023-03-13 10:53:51	981ms	silly_kirch	ERR	62de4bf58427a6995f14c5d1590ad93e	135896c2-e7d2-4f9f-ad06-b44240b26653	nextflow -log ./logs run main.nf
+2023-03-13 10:54:53	1.9s	pensive_golick	OK	ff1ec7af4b44e707f6b7372ba60c3ae6	9c7f1b5d-61bc-4bb9-836a-a6be22ee12d5	nextflow -log ./logs run main.nf
+2023-03-13 10:55:25	1.1s	loving_brahmagupta	ERR	62de4bf58427a6995f14c5d1590ad93e	4e71d209-1387-4dec-96d9-38c3c7781c13	nextflow -log ./logs run main.nf
+2023-03-13 10:55:55	2.1s	intergalactic_wiles	OK	62de4bf58427a6995f14c5d1590ad93e	5752721e-f7f0-44ef-b065-fd68c83a0a7e	nextflow -log ./logs run main.nf
+2023-03-13 10:56:54	1.6s	serene_mclean	OK	62de4bf58427a6995f14c5d1590ad93e	b689e32b-973e-4e32-a5f0-5074a3a315cf	nextflow -log ./logs run main.nf
+2023-03-13 10:57:06	2.1s	small_brenner	OK	62de4bf58427a6995f14c5d1590ad93e	5d676b3e-6a0d-41c6-9ea8-a72a4383d318	nextflow -log ./logs run main.nf
+2023-03-13 10:58:07	1.5s	hopeful_cori	OK	62de4bf58427a6995f14c5d1590ad93e	b7232cb9-eb0e-4704-8bb9-17e1134c9635	nextflow -log ./logs run main.nf
+2023-03-13 10:58:49	1.3s	grave_plateau	OK	62de4bf58427a6995f14c5d1590ad93e	ea3ebc14-f835-4813-8ae8-4085f4e9796a	nextflow -log ./logs run main.nf
+2023-03-13 11:02:08	-	irreverent_albattani	-	4512ef03fdb1d8ccb6180a86b0ffeb26	036d27d3-869e-49d2-b3e2-f60a938fc214	nextflow -log ./logs run main.nf --help
+2023-03-13 11:02:46	-	soggy_kalam	-	4512ef03fdb1d8ccb6180a86b0ffeb26	4aeea18b-8106-4e3c-8b0d-eca5afc7cd27	nextflow -log ./logs run main.nf --help
+2023-03-13 11:02:56	-	stoic_sax	-	4512ef03fdb1d8ccb6180a86b0ffeb26	ad810dd7-e26f-4817-afd0-8db13eeaea2e	nextflow run main.nf --help
+2023-03-13 11:04:00	-	hopeful_sammet	-	a0bdf8cffa8c9b44d47fd30c83d68196	0223f403-e553-4d32-b7c4-af780963327c	nextflow run main.nf --help
+2023-03-13 11:04:50	1.7s	astonishing_nightingale	OK	fee02861a768e4542c45629193a3b40e	115ea499-f460-4082-bd2b-943ff53d6b05	nextflow -log ./logs run main.nf --help
+2023-03-13 11:05:14	-	jolly_nightingale	-	a0bdf8cffa8c9b44d47fd30c83d68196	12ceeac6-8e9f-4161-b75e-6c96c1caddd5	nextflow -log ./logs run main.nf --help
+2023-03-13 11:13:30	2.4s	naughty_thompson	OK	d3bd1ad0fcf3fed429212edd0a160278	0aae395b-06ae-4480-85d4-964aead30d06	nextflow -log ./logs run main.nf
+2023-03-13 11:15:09	2.3s	crazy_panini	OK	f983573edff71847fe638a5de522fd34	9baf23d2-dce8-4b80-81f8-5399b09f0e4d	nextflow -log ./logs run main.nf
+2023-03-13 11:15:36	1.9s	grave_mcclintock	OK	f983573edff71847fe638a5de522fd34	fc78f825-dca9-42a2-998d-ef07204344ca	nextflow -log ./logs run main.nf
+2023-03-13 11:16:09	2s	prickly_wescoff	OK	f983573edff71847fe638a5de522fd34	349bd029-0cd3-4ebb-a2ee-f87b61a0de17	nextflow -log ./logs run main.nf
+2023-03-13 11:16:27	2.5s	serene_swartz	OK	f983573edff71847fe638a5de522fd34	43ea3a3b-9fe4-48ae-a40c-a06c4462c718	nextflow -log ./logs run main.nf
+2023-03-13 11:24:36	2.1s	pedantic_bassi	OK	5580c05976c2f8b4b547e5fa2bd3473d	d1e24b4a-39ad-49cf-979a-75ccff0db02c	nextflow -log ./logs run main.nf
+2023-03-13 11:25:15	1.7s	mighty_curran	OK	47bf10eb9ccce5c4321de39c919db909	e1f267e1-6425-4a29-bd99-01ebfdc49ee7	nextflow -log ./logs run main.nf
